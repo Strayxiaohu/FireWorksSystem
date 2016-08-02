@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A72EA</color>
+    <color name="colorPrimaryDark">#156DE3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="hei">#434143</color>
+    <color name="hui">#E0DDDD</color>
+    <color name="item_line">#8E8D8D</color>
+</resources>

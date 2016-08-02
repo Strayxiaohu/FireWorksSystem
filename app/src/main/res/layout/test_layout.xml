@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="扫描"
+        android:id="@+id/btn_scan"/>
+<Button
+    android:id="@+id/btn_time_selecter"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="时间控件"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:id="@+id/txt_time"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_select_bluetooth"
+        android:text="选择蓝牙"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_readCard"
+        android:text="读取身份证"/>
+</LinearLayout>
