@@ -6,13 +6,16 @@ package com.xiaohu.fireworkssystem.model;
 public class BlueToothModel {
     private String DeviceName;
     private String DeviceAddress;
-    public BlueToothModel(){
+
+    public BlueToothModel() {
 
     }
-public BlueToothModel(String name,String address){
-    DeviceName=name;
-    DeviceAddress=address;
-}
+
+    public BlueToothModel(String name, String address) {
+        DeviceName = name;
+        DeviceAddress = address;
+    }
+
     public String getDeviceAddress() {
         return DeviceAddress;
     }

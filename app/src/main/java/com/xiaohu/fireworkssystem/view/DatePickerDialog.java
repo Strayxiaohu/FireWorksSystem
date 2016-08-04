@@ -127,7 +127,6 @@ public class DatePickerDialog implements DatePicker.OnDateChangedListener {
                 result = srcStr.substring(loc + 1, srcStr.length());//截取子串
             }
         }
-
         return result;
     }
 }

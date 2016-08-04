@@ -30,12 +30,11 @@ public class MyTitleView extends RelativeLayout {
     public MyTitleView(Context context, AttributeSet atts) {
         super(context, atts);
         View view = LayoutInflater.from(context).inflate(R.layout.layout_title, this, true);
-        imageDemoTest=new ImageDemoTest(context);
+        imageDemoTest = new ImageDemoTest(context);
         leftImage = (ImageView) view.findViewById(R.id.img_left);
         rightImage = (ImageView) view.findViewById(R.id.img_right);
         name = (TextView) view.findViewById(R.id.title_name);
-
-setupAttributes(atts);
+        setupAttributes(atts);
     }
 
     private void setupAttributes(AttributeSet attrs) {
